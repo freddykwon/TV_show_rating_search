@@ -1,0 +1,56 @@
+html {
+    background-color: #495057 !important;
+}
+body {
+    text-align: center;
+}
+
+.center {
+    margin:0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#title {
+    margin-top: 2rem;
+    font-family: 'M PLUS Code Latin', sans-serif;
+    color: white;
+}
+#input, #searchBtn {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 0;
+    -webkit-appearance: none;
+}
+#input{
+    border: 1px solid lightgray;
+    margin-bottom: 1rem;
+}
+
+#searchBtn {
+    background-color: yellow;
+    border: 1px solid transparent;
+}
+
+form {
+    margin-bottom: 3rem;
+}
+
+.movieData{
+    margin: 0.5rem;
+    font-family: 'M PLUS Code Latin', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+@media (max-width: 675px) {
+#title {
+font-size: 28px;
+}
+}
+
+
